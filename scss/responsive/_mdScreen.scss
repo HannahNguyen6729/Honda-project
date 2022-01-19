@@ -1,0 +1,112 @@
+//HEADER
+@media screen and (min-width: 769px) and (max-width: 1020px) {
+  #header {
+    .navbar {
+      .navbar-brand {
+        padding: 0 $pd-2;
+      }
+      a {
+        text-transform: capitalize;
+        padding: $pd-2 $pd-2 - 3;
+      }
+      .myNavbarCollapse {
+        .navbar-nav {
+          .dropdown {
+            .dropdown-menu {
+              top: $width-3;
+              left: -$width-5 - 12;
+            }
+          }
+        }
+      }
+    }
+  }
+  #search {
+    &::before {
+      @include arrow(-$width-8, $width-2, $color-grey);
+    }
+  }
+}
+@media screen and (min-width: 769px) and (max-width: 992px) {
+  #swiper__carousel {
+    margin-top: $mg-3 + 9;
+    height: 600px;
+    .swiper {
+      height: 420px;
+      .swiper-wraper {
+        height: 80%;
+      }
+    }
+  }
+}
+@media screen and (min-width: 769px) and (max-width: 1050px) {
+  .intro {
+    .intro__container {
+      .intro__item--right {
+        background-image: url(../../img/intro-2-xs.jpg);
+        p {
+          width: 100%;
+          padding-right: $pd-2;
+        }
+      }
+    }
+  }
+}
+//OUR VEHICLES
+@media screen and (min-width: 769px) and (max-width: 992px) {
+  .our-vehicles {
+    .our-vehicles__carousel {
+      .our-vehicles__inner {
+        .carousel--item {
+          .carousel--caption {
+            .carousel--header {
+              .carousel--rating {
+                p {
+                  font-weight: $font-weight-normal !important;
+                }
+                p:first-child {
+                  font-size: $font-size-3;
+                }
+                p:last-child {
+                  font-size: $font-size-1;
+                }
+              }
+            }
+            .carousel--footer {
+              img {
+                display: none !important;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+//OFFERS
+@media screen and (min-width: 769px) and (max-width: 991px) {
+  .offers {
+    .row {
+      width: 100%;
+      .offers__container {
+        padding: 0 2px;
+        .offers__item {
+          padding-top: 56%;
+        }
+      }
+    }
+  }
+}
+@media screen and (min-width: 992px) and (max-width: 1200px) {
+  .offers {
+    .row {
+      .offers__container {
+        padding: 0 5px;
+        .offers__item {
+          padding-top: 50%;
+        }
+      }
+    }
+  }
+}

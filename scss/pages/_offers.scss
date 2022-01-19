@@ -1,0 +1,35 @@
+.offers {
+  background-color: $color-grey;
+  padding: $pd-3 0;
+  .row {
+    width: 91.5%;
+    margin: 0 auto;
+    .offers__container {
+      padding: 0 $pd-1;
+      .offers__item {
+        padding-top: 45%;
+        height: 300px;
+        color: $color-dark-blue-100;
+        text-align: center;
+        border: $border-4;
+        h5 {
+          font-weight: $font-weight-bold;
+          text-transform: capitalize;
+        }
+        p {
+          padding: 0 $pd-1 - 1;
+        }
+        .offers__button {
+          @include styleButton(
+            $color-white,
+            $color-blue-200,
+            $border-1,
+            $pd-1 $pd-2,
+            $color-blue-200,
+            $color-white
+          );
+        }
+      }
+    }
+  }
+}

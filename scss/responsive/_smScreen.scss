@@ -1,0 +1,152 @@
+//HEADER
+@media screen and (max-width: 768px) {
+  #header {
+    .navbar {
+      .navbar-brand {
+        padding: 0 $pd-2;
+      }
+      a {
+        text-transform: capitalize;
+        padding: $pd-3 $pd-2;
+      }
+      .myNavbarCollapse {
+        border-top: $border-1;
+        .navbar-nav {
+          .nav-item {
+            .nav-link {
+              padding: $pd-2 $pd-3;
+            }
+            &:hover {
+              background-color: $color-blue-200;
+              //> a {
+              //color: $color-blue-100;
+              //}
+            }
+          }
+          .dropdown {
+            .dropdown-menu {
+              top: 48px;
+              left: 21px;
+              box-shadow: none;
+              border: $border-2;
+              &::before {
+                @include arrow(-$width-1, $width-9 + 3, $color-white);
+              }
+            }
+          }
+
+          .nav--search {
+            #search {
+              background-color: $color-grey-1;
+              padding: $pd-2 - 2 $pd-3;
+              &::before {
+                display: none;
+              }
+              input {
+                font-size: $font-size-1 + 0.1;
+                font-weight: $font-weight-normal;
+                &::placeholder {
+                  font-size: $font-size-1 + 0.1;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+//OUR - VEHICLES
+@media screen and (max-width: 768px) {
+  .our-vehicles {
+    .our-vehicles__carousel {
+      .our-vehicles__inner {
+        .carousel--item {
+          img:nth-child(2) {
+            height: 100%;
+          }
+          .carousel--caption {
+            width: 76%;
+            left: 10%;
+            top: 45%;
+            text-align: center;
+            .carousel--header {
+              width: 100%;
+              padding-left: 0;
+              margin-bottom: $mg-1;
+              .carousel--logo {
+                img {
+                  transform: translateX(0);
+                  width: 80%;
+                }
+              }
+              .carousel--rating {
+                p:first-child {
+                  font-size: $font-size-2 - 0.2;
+                }
+                p:last-child {
+                  font-size: $font-size-1 - 0.2;
+                }
+              }
+              .carousel--button {
+                margin-top: 0;
+              }
+            }
+          }
+        }
+      }
+      .our-vehicles__button {
+        i {
+          font-size: $font-size-2;
+        }
+      }
+      .carousel-control-prev {
+        left: -3px;
+      }
+      .carousel-control-next {
+        right: -3px;
+      }
+    }
+  }
+}
+
+//OFFERS
+
+@media screen and (max-width: 576px) {
+  .offers {
+    .row {
+      .offers__container {
+        padding: 0 $pd-1;
+        .offers__item {
+          padding-top: 25% !important;
+          margin-bottom: $pd-2;
+        }
+      }
+    }
+  }
+}
+@media screen and (max-width: 768px) {
+  .offers {
+    .row {
+      .offers__container {
+        padding: 0 5px;
+        .offers__item {
+          padding-top: 42%;
+          margin-bottom: $pd-2;
+        }
+      }
+    }
+  }
+}
+//FOOTER
+@media screen and (min-width: 576px) and (max-width: 992px) {
+  footer {
+    .footer {
+      .footer__up {
+        .footer__up--detail {
+          width: 33.3%;
+        }
+      }
+    }
+  }
+}

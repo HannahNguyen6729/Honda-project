@@ -1,0 +1,50 @@
+#swiper__carousel {
+  height: 750px;
+  margin-top: $mg-4;
+  background-color: $color-dark-blue-200;
+  position: relative;
+  .swiper {
+    height: 500px;
+
+    .swiper-wrapper {
+      height: 92%;
+    }
+    .swiper-pagination {
+      .swiper-pagination-bullet {
+        width: 12px;
+        height: 12px;
+        background-color: $color-blue-100;
+      }
+    }
+    .swiper__button {
+      top: 45%;
+      background-color: $color-grey;
+      padding: $pd-6 $pd-5;
+      border-radius: 10px;
+    }
+    .swiper-button-prev {
+      left: -10px;
+    }
+    .swiper-button-next {
+      right: -10px;
+    }
+    .swiper--button {
+      position: absolute;
+      text-align: center;
+      width: 100%;
+      bottom: 15%;
+      z-index: 5;
+      .btn--carousel {
+        text-transform: uppercase;
+        @include styleButton(
+          $color-white,
+          $color-orange,
+          2px solid $color-orange,
+          $pd-1 $pd-3,
+          $color-orange,
+          $color-white
+        );
+      }
+    }
+  }
+}

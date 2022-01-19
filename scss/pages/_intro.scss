@@ -1,0 +1,57 @@
+.intro {
+  background-color: $color-grey;
+  .intro__container {
+    padding: 0 $pd-8;
+    margin-top: $mg-up-3;
+    color: $color-white;
+
+    .intro__item--left,
+    .intro__item--right {
+      height: 350px;
+      background-position: center;
+      background-size: cover;
+      margin-bottom: $mg-1;
+    }
+    .intro__item--left {
+      background-color: $color-black;
+      background-image: url(../../img/our-vehicle-intro-1.jpg);
+      text-align: center;
+      padding-top: 25%;
+      .intro--leftButton {
+        @include styleButton(
+          $color-white,
+          $color-blue-200,
+          $border-1,
+          $pd-1 $pd-3,
+          $color-blue-200,
+          transparent
+        );
+      }
+    }
+    .intro__item--right {
+      background-image: url(../../img/our-vehicles-intro-2.jpg);
+      padding-top: 23%;
+      padding-left: $pd-3;
+      font-weight: $font-weight-bold;
+      h5 {
+        background-color: $color-dark-blue-200;
+        display: inline-block;
+        padding: $pd-1 $pd-2;
+      }
+      p {
+        font-size: $font-size-1 + 0.1;
+        width: 40%;
+      }
+      .intro--rightButton {
+        @include styleButton(
+          $color-white,
+          $color-blue-200,
+          $border-3,
+          $pd-1 $pd-3,
+          $color-blue-200,
+          $color-white
+        );
+      }
+    }
+  }
+}

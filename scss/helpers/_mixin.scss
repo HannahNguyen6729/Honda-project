@@ -1,0 +1,32 @@
+@mixin styleButton(
+  $color,
+  $bg-color,
+  $border,
+  $padding,
+  $color-hover,
+  $bg-color-hover
+) {
+  color: $color;
+  background-color: $bg-color;
+  border: $border;
+  border-radius: 40px;
+  text-transform: uppercase;
+  padding: $padding;
+  font-weight: $font-weight-bold;
+  cursor: pointer;
+  &:hover {
+    color: $color-hover;
+    background-color: $bg-color-hover;
+  }
+}
+@mixin arrow($top, $right, $bg-color) {
+  content: "";
+  width: 15px;
+  height: 15px;
+  display: block;
+  position: absolute;
+  top: $top;
+  right: $right;
+  transform: rotate((45deg));
+  background-color: $bg-color;
+}

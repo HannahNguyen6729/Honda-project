@@ -1,0 +1,70 @@
+@each $index,
+  $bg-color
+    in (1, #3c4c5c)
+    (2, #5e5e5e)
+    (3, #11409a)
+    (4, #33569c)
+    (5, #5c5c5c)
+    (6, #c0bab5)
+{
+  #img-#{$index} {
+    background: linear-gradient(#bbbdc0, $color-grey, $color-grey);
+    &:hover {
+      background: linear-gradient($bg-color, $color-grey, $color-grey);
+    }
+  }
+  .delay--#{$index} {
+    animation-delay: 0.3s * $index;
+  }
+}
+
+@each $index, $img in (1, banner-1) (2, banner-2) (3, banner-3) (4, banner-4) {
+  .slide-#{$index} {
+    background: url(../../img/#{$img}.jpg);
+    background-size: cover;
+    background-position: center;
+    @media screen and (max-width: 768px) {
+      background: url(../../img/#{$img}-xs.jpg);
+      background-size: cover;
+      background-position: center;
+    }
+  }
+}
+@each $index,
+  $img in (1, slider-1) (2, slider-2) (3, slider-3) (4, slider-4) (5, slider-5)
+{
+  .item-#{$index} {
+    background: url(../../img/#{$img}.jpg);
+    background-size: cover;
+    background-position: center;
+    @media screen and (max-width: 768px) {
+      background: url(../../img/#{$img}-xs.jpg);
+      background-size: cover;
+      background-position: center;
+    }
+  }
+}
+//OFFERS
+@each $index, $img in (1, item-1) (2, item-2) (3, item-3) (4, item-4) {
+  .offers--#{$index} {
+    background: url(../../img/#{$img}.jpg);
+    background-size: cover;
+    background-position: center;
+  }
+}
+//DISCOVER
+@each $index,
+  $img
+    in (1, discover-1)
+    (2, discover-2)
+    (3, discover-3)
+    (4, discover-4)
+    (5, discover-5)
+{
+  .discover--#{$index} {
+    background: url(../../img/#{$img}.jpg);
+    background-size: 120%;
+    background-repeat: no-repeat;
+    background-position: center 0;
+  }
+}

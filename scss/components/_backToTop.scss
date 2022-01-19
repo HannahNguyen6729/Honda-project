@@ -1,0 +1,27 @@
+.backToTop--button {
+  position: fixed;
+  right: 20px;
+  bottom: 30px;
+  visibility: hidden;
+  opacity: 0;
+  i {
+    width: 40px;
+    height: 40px;
+    line-height: 35px;
+    color: $color-blue-200;
+    font-size: 2rem;
+    border: 2px solid $color-blue-200;
+    border-radius: 50%;
+    text-align: center;
+  }
+}
+.cd-top--is-visible {
+  // back-to-top button visible
+  visibility: visible;
+  opacity: 1;
+}
+
+.cd-top--fade-out {
+  // reduce button opacity if user keeps scrolling
+  opacity: 0.5;
+}

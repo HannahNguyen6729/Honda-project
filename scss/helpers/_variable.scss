@@ -1,0 +1,65 @@
+//--------------- COLOR
+$color-white: #fff;
+$color-blue-100: #007cc3;
+$color-blue-200: #2198dc;
+$color-dark-blue-100: #00446a;
+$color-dark-blue-200: #00324f;
+$color-orange: #ff2323;
+$color-black: #000000;
+$color-blue-overlay: rgba(0, 67, 108, 0.8);
+$color-grey: #f5f5f5;
+$color-grey-1: #f1efef;
+
+//--------------FONT-SIZE
+$font-size-html: 14px;
+//1rem = 14px
+//2rem = 14*2 = 28px
+$font-size-1: 1rem;
+$font-size-2: 1.8rem;
+$font-size-3: 1.6rem;
+$font-size-4: 1.3rem;
+
+$font-weight-bold: bold;
+$font-weight-normal: normal;
+$font-weight-300: 300;
+
+//SIZE
+$vehicles-width-0: 30px;
+$vehicles-width-1: 50px;
+$vehicles-width-2: 70px;
+
+$width-1: 5px;
+$width-2: 15px;
+$width-3: 60px;
+$width-4: 70px;
+$width-5: 150px;
+$width-6: 25px;
+$width-7: 27px;
+$width-8: 8px;
+$width-9: 240px;
+
+//PADDING
+$pd-1: 6px;
+$pd-2: 15px;
+$pd-3: 20px;
+$pd-4: 25px;
+$pd-5: 30px;
+$pd-6: 50px;
+$pd-7: 10%;
+$pd-8: 65px;
+
+//MARGIN
+$mg-up-1: -0.2rem;
+$mg-up-2: -2.4rem;
+$mg-up-3: -200px;
+$mg-1: 20px;
+$mg-2: 30px;
+$mg-3: 45px;
+$mg-4: 60px;
+$mg-5: 100px;
+
+//BORDER
+$border-1: 2px solid #4f91ca;
+$border-2: 2px solid #e5e5e5;
+$border-3: 2px solid $color-white;
+$border-4: 1px solid $color-grey-1;

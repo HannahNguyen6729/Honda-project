@@ -1,0 +1,77 @@
+.discover {
+  background-color: $color-grey;
+  text-align: center;
+  color: $color-dark-blue-100;
+
+  .discover__container {
+    .row {
+      width: 91%;
+      margin: 0 auto;
+      .discover__item {
+        height: 450px;
+        background-color: $color-white;
+        border: $border-4;
+        margin-bottom: $pd-3;
+        padding: 55% $pd-2 0;
+        p {
+          padding: $pd-2 - 5 0;
+        }
+        a {
+          font-weight: $font-weight-bold;
+        }
+      }
+      .discover__item--twitter {
+        padding: $pd-4;
+        text-align: left;
+        .discover--twitterIcon {
+          color: $color-blue-200;
+          font-size: $font-size-3;
+          display: block;
+          text-align: right;
+        }
+        .discover--twitter {
+          display: flex;
+          justify-content: flex-start;
+          gap: $pd-1;
+          align-items: center;
+          margin-top: 20%;
+          .discover--logo {
+            img {
+              border-radius: $pd-1;
+            }
+          }
+          a:last-child {
+            font-weight: $font-weight-normal;
+          }
+        }
+        p {
+          margin: 0;
+        }
+
+        .discover--paragraph {
+          a {
+            font-weight: $font-weight-normal;
+          }
+        }
+        .discover--time {
+          color: $color-blue-200;
+        }
+        .discover--interaction {
+          color: $color-blue-200;
+        }
+      }
+    }
+  }
+  .discover__button {
+    button {
+      @include styleButton(
+        $color-white,
+        $color-orange,
+        2px solid $color-orange,
+        $pd-1 $pd-2,
+        $color-orange,
+        $color-white
+      );
+    }
+  }
+}

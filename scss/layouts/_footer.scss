@@ -1,0 +1,97 @@
+footer {
+  .footer {
+    background-color: $color-grey;
+    h1 {
+      color: $color-dark-blue-100;
+    }
+    .footer__up {
+      width: 91%;
+      margin: 0 auto;
+      flex-wrap: wrap;
+      border-bottom: $border-2;
+      .footer__up--detail {
+        cursor: pointer;
+        h5 {
+          color: $color-blue-100;
+          margin-bottom: $pd-2;
+        }
+        ul li {
+          color: $color-blue-100;
+          margin-bottom: $pd-2 - 5;
+
+          &:hover {
+            color: $color-dark-blue-100;
+          }
+        }
+      }
+    }
+    .footer__down {
+      width: 91%;
+      margin: 0 auto;
+      padding: $pd-5 0;
+      .footer__down--media {
+        h4 {
+          color: $color-blue-100;
+          margin-bottom: $pd-3;
+        }
+        .footer--media-icon {
+          i {
+            width: 30px;
+            height: 30px;
+            line-height: 30px;
+            text-align: center;
+            border-radius: 50%;
+            background-color: $color-blue-100;
+            color: $color-white;
+            cursor: pointer;
+          }
+        }
+      }
+      .footer__down--email {
+        color: $color-blue-100;
+        button {
+          @include styleButton(
+            $color-blue-100,
+            transparent,
+            $border-1,
+            $pd-1 $pd-2,
+            $color-white,
+            $color-blue-100
+          );
+        }
+      }
+    }
+  }
+}
+
+#copy-right {
+  background-color: $color-blue-100;
+  color: $color-white;
+  .footer__copyRight {
+    width: 91%;
+    margin: 0 auto;
+    padding: $pd-4 0;
+    .footer__copyRight--left {
+      p {
+        span {
+          font-style: italic;
+          font-weight: $font-weight-bold;
+        }
+      }
+    }
+    .footer__copyRight--right {
+      ul li {
+        border-right: 1px solid $color-white;
+        padding: 0 $pd-2;
+        &:last-child {
+          border: none;
+        }
+      }
+    }
+    .footer__copyRight--down {
+      img {
+        height: $mg-3;
+      }
+    }
+  }
+}
