@@ -71,185 +71,185 @@
 }
 
 .slide-1 {
-  background: url(../../img/banner-1.jpg);
+  background: url(../img/banner-1.jpg);
   background-size: cover;
   background-position: center;
 }
 
 @media screen and (max-width: 768px) {
   .slide-1 {
-    background: url(../../img/banner-1-xs.jpg);
+    background: url(../img/banner-1-xs.jpg);
     background-size: cover;
     background-position: center;
   }
 }
 
 .slide-2 {
-  background: url(../../img/banner-2.jpg);
+  background: url(../img/banner-2.jpg);
   background-size: cover;
   background-position: center;
 }
 
 @media screen and (max-width: 768px) {
   .slide-2 {
-    background: url(../../img/banner-2-xs.jpg);
+    background: url(../img/banner-2-xs.jpg);
     background-size: cover;
     background-position: center;
   }
 }
 
 .slide-3 {
-  background: url(../../img/banner-3.jpg);
+  background: url(../img/banner-3.jpg);
   background-size: cover;
   background-position: center;
 }
 
 @media screen and (max-width: 768px) {
   .slide-3 {
-    background: url(../../img/banner-3-xs.jpg);
+    background: url(../img/banner-3-xs.jpg);
     background-size: cover;
     background-position: center;
   }
 }
 
 .slide-4 {
-  background: url(../../img/banner-4.jpg);
+  background: url(../img/banner-4.jpg);
   background-size: cover;
   background-position: center;
 }
 
 @media screen and (max-width: 768px) {
   .slide-4 {
-    background: url(../../img/banner-4-xs.jpg);
+    background: url(../img/banner-4-xs.jpg);
     background-size: cover;
     background-position: center;
   }
 }
 
 .item-1 {
-  background: url(../../img/slider-1.jpg);
+  background: url(../img/slider-1.jpg);
   background-size: cover;
   background-position: center;
 }
 
 @media screen and (max-width: 768px) {
   .item-1 {
-    background: url(../../img/slider-1-xs.jpg);
+    background: url(../img/slider-1-xs.jpg);
     background-size: cover;
     background-position: center;
   }
 }
 
 .item-2 {
-  background: url(../../img/slider-2.jpg);
+  background: url(../img/slider-2.jpg);
   background-size: cover;
   background-position: center;
 }
 
 @media screen and (max-width: 768px) {
   .item-2 {
-    background: url(../../img/slider-2-xs.jpg);
+    background: url(../img/slider-2-xs.jpg);
     background-size: cover;
     background-position: center;
   }
 }
 
 .item-3 {
-  background: url(../../img/slider-3.jpg);
+  background: url(../img/slider-3.jpg);
   background-size: cover;
   background-position: center;
 }
 
 @media screen and (max-width: 768px) {
   .item-3 {
-    background: url(../../img/slider-3-xs.jpg);
+    background: url(../img/slider-3-xs.jpg);
     background-size: cover;
     background-position: center;
   }
 }
 
 .item-4 {
-  background: url(../../img/slider-4.jpg);
+  background: url(../img/slider-4.jpg);
   background-size: cover;
   background-position: center;
 }
 
 @media screen and (max-width: 768px) {
   .item-4 {
-    background: url(../../img/slider-4-xs.jpg);
+    background: url(../img/slider-4-xs.jpg);
     background-size: cover;
     background-position: center;
   }
 }
 
 .item-5 {
-  background: url(../../img/slider-5.jpg);
+  background: url(../img/slider-5.jpg);
   background-size: cover;
   background-position: center;
 }
 
 @media screen and (max-width: 768px) {
   .item-5 {
-    background: url(../../img/slider-5-xs.jpg);
+    background: url(../img/slider-5-xs.jpg);
     background-size: cover;
     background-position: center;
   }
 }
 
 .offers--1 {
-  background: url(../../img/item-1.jpg);
+  background: url(../img/item-1.jpg);
   background-size: cover;
   background-position: center;
 }
 
 .offers--2 {
-  background: url(../../img/item-2.jpg);
+  background: url(../img/item-2.jpg);
   background-size: cover;
   background-position: center;
 }
 
 .offers--3 {
-  background: url(../../img/item-3.jpg);
+  background: url(../img/item-3.jpg);
   background-size: cover;
   background-position: center;
 }
 
 .offers--4 {
-  background: url(../../img/item-4.jpg);
+  background: url(../img/item-4.jpg);
   background-size: cover;
   background-position: center;
 }
 
 .discover--1 {
-  background: url(../../img/discover-1.jpg);
+  background: url(../img/discover-1.jpg);
   background-size: 120%;
   background-repeat: no-repeat;
   background-position: center 0;
 }
 
 .discover--2 {
-  background: url(../../img/discover-2.jpg);
+  background: url(../img/discover-2.jpg);
   background-size: 120%;
   background-repeat: no-repeat;
   background-position: center 0;
 }
 
 .discover--3 {
-  background: url(../../img/discover-3.jpg);
+  background: url(../img/discover-3.jpg);
   background-size: 120%;
   background-repeat: no-repeat;
   background-position: center 0;
 }
 
 .discover--4 {
-  background: url(../../img/discover-4.jpg);
+  background: url(../img/discover-4.jpg);
   background-size: 120%;
   background-repeat: no-repeat;
   background-position: center 0;
 }
 
 .discover--5 {
-  background: url(../../img/discover-5.jpg);
+  background: url(../img/discover-5.jpg);
   background-size: 120%;
   background-repeat: no-repeat;
   background-position: center 0;
@@ -821,7 +821,7 @@ footer .footer .footer__down .footer__down--email button:hover {
 
 .intro .intro__container .intro__item--left {
   background-color: #000000;
-  background-image: url(../../img/our-vehicle-intro-1.jpg);
+  background-image: url(../img/our-vehicle-intro-1.jpg);
   text-align: center;
   padding-top: 25%;
 }
@@ -843,7 +843,7 @@ footer .footer .footer__down .footer__down--email button:hover {
 }
 
 .intro .intro__container .intro__item--right {
-  background-image: url(../../img/our-vehicles-intro-2.jpg);
+  background-image: url(../img/our-vehicles-intro-2.jpg);
   padding-top: 23%;
   padding-left: 20px;
   font-weight: bold;
@@ -1111,11 +1111,11 @@ footer .footer .footer__down .footer__down--email button:hover {
 }
 
 .future__vehicles .intro__container .future__vehicles--left {
-  background-image: url(../../img/intro-3.jpg);
+  background-image: url(../img/intro-3.jpg);
 }
 
 .future__vehicles .intro__container .future__vehicles--right {
-  background-image: url(../../img/intro-4.jpg);
+  background-image: url(../img/intro-4.jpg);
 }
 
 .discover {

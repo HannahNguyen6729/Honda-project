@@ -4,7 +4,6 @@
     padding: 0 $pd-8;
     margin-top: $mg-up-3;
     color: $color-white;
-
     .intro__item--left,
     .intro__item--right {
       height: 350px;
@@ -14,7 +13,7 @@
     }
     .intro__item--left {
       background-color: $color-black;
-      background-image: url(../../img/our-vehicle-intro-1.jpg);
+      background-image: url(../img/our-vehicle-intro-1.jpg);
       text-align: center;
       padding-top: 25%;
       .intro--leftButton {
@@ -29,7 +28,7 @@
       }
     }
     .intro__item--right {
-      background-image: url(../../img/our-vehicles-intro-2.jpg);
+      background-image: url(../img/our-vehicles-intro-2.jpg);
       padding-top: 23%;
       padding-left: $pd-3;
       font-weight: $font-weight-bold;
